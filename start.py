@@ -104,7 +104,7 @@ Examples:
 def main():
     """Main entry point."""
     # Setup logging
-    setup_logger = logger
+    setup_logger()
     logger.info("=" * 60)
     logger.info("APEX TRADING SYSTEM - Starting")
     logger.info("=" * 60)
